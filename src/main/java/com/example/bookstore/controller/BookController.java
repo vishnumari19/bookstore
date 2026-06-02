@@ -57,7 +57,7 @@ public class BookController {
 		
 		
 	}
-	//update t set title=''where id=1
+	//delete t set title=''where id=1
 	@DeleteMapping("del/{id}")
 	public ResponseEntity<Book>set4(@PathVariable int id)
 	{
